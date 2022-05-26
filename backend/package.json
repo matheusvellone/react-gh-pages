@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "start": "node build/bin/server",
     "dev": "tsc --watch & nodemon -w build build/bin/server.js"
   },
   "keywords": [],
